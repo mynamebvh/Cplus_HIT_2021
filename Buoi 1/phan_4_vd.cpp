@@ -2,8 +2,9 @@
 using namespace std;
 
 /*
-
+  Các toán tử [https://quantrimang.com/toan-tu-trong-cplusplus-156183]
 */
+
 int main(){
   int n = 10;
   
