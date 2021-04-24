@@ -13,27 +13,33 @@ int main(){
     // do sai lên chuyển xuống else if kiểm tra tiếp
     cout << "TB";
   }
-  else if(n > 10){ // kiểm tra điều kiện n > 10 => sai chuyển xuống else
+  else if(anh doan bi bat && anh huan bi bat){ // kiểm tra điều kiện n > 10 => sai chuyển xuống else
     cout << "PRO";
   }
-  else {
+  else if(anh doan bi bat || anh huan bi bat){
     cout << "TOT"; // in ra TOT
   }
+  else{
+
+  }
+
 
   // toán tử 3 ngôi
   (n == 10) ? cout << "n = 10" : cout << "n khac 10"; 
   
   // switch case
-  int thang = 9; 
-  switch (thang){
-    case 2: 
+  int thang = 3; 
+
+  switch (thang){ // thang = 3
+    case 2:  // sai
       cout << "co 28 or 29 ngay";
-    case 1:
-    case 3:
-    case 5:
-    case 7:
+      break;
+    case 1: 
+    case 3: 
+    case 5: 
+    case 7: 
     case 8:
-    case 10:
+    case 10: 
     case 12: 
       cout << "co 31 ngay";
       break;

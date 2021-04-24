@@ -7,12 +7,14 @@ using namespace std;
 
 
 int main(){
-  int a; // khai báo 1 biến tên "a" với kiểu nguyên (int)
-  double b; // khai báo 1 biến tên "b" với kiểu thực (double)
+  int a = 2; // khai báo 1 biến tên "a" với kiểu nguyên (int)
+  double b = 3.1; // khai báo 1 biến tên "b" với kiểu thực (double)
 
 
   const int MAX = 200; // Khai báo hằng sô tên MAX giá trị = 200
 
-  bool c = false; // khai báo biến "c" kiểu boolean
+  bool c = true; // khai báo biến "c" kiểu boolean
+  
+  cout << c;
   return 0;
 }
